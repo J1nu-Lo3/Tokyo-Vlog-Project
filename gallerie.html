@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Gallerie - Une semaine de vacances</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Index.css" />
+    <link rel="stylesheet" href="gallerie.css" />
+    <script src="gallerie.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>一週間の<br />休暇</h1>
+      </div>
+
+      <nav>
+        <ul>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="gallerie.html" class="active">Gallerie</a></li>
+          <li><a href="apropos.html">À propos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="gallery-category-barre">
+      <div class="filter-wrapper">
+        <button class="filter-btn active main-btn" data-category="all">
+          Tout
+        </button>
+
+        <div class="filter-grid">
+          <button class="filter-btn" data-category="shinjuku">Shinjuku</button>
+          <button class="filter-btn" data-category="odaiba">Odaiba</button>
+          <button class="filter-btn" data-category="minato">Minato</button>
+          <button class="filter-btn" data-category="chuo">Chūō</button>
+
+          <button class="filter-btn" data-category="shibuya">Shibuya</button>
+          <button class="filter-btn" data-category="taito">Taitō</button>
+          <button class="filter-btn" data-category="chiyoda">Chiyoda</button>
+          <button class="filter-btn" data-category="sumida">Sumida</button>
+        </div>
+      </div>
+
+      <div class="gallery-info">
+        <p>
+          J’ai regroupé les photos en fonction de l’arrondissement de Tokyo que
+          j’ai visité.
+        </p>
+      </div>
+    </div>
+
+    <div class="gallery-grid">
+      <img
+        src="Asset/Shibuya/H0504040825.jpg"
+        class="gallery-item"
+        data-category="shibuya"
+        alt="photo prise dans les rues de Harajuku n°2"
+      />
+      <img
+        src="Asset/Minato/TT0717030825.jpg"
+        class="gallery-item"
+        data-category="minato"
+        alt="photo prise dans les rues de Minato"
+      />
+      <img
+        src="Asset/Chiyoda/IP0319020825.jpg"
+        class="gallery-item"
+        data-category="chiyoda"
+        alt="photo prise devant une des portes du palais impérial"
+      />
+      <img
+        src="Asset/Sumida/H2335070825.jpg"
+        class="gallery-item"
+        data-category="sumida"
+        alt="photo prise devant la gare de Hikifune"
+      />
+      <img
+        src="Asset/Taitô/UM0823030825.jpg"
+        class="gallery-item"
+        data-category="taito"
+        alt="photo prise dans le musée de la nature et science"
+      />
+      <img
+        src="Asset/Shinjuku/S0907040825.jpg"
+        class="gallery-item"
+        data-category="shinjuku"
+        alt="photo prise dans une petite ruelle"
+      />
+      <img
+        src="Asset/Odaiba/OTL0725060825.jpg"
+        class="gallery-item"
+        data-category="odaiba"
+        alt="photo prise dans TeamLab n°1"
+      />
+      <img
+        src="Asset/Chûô/G0321050825.jpg"
+        class="gallery-item"
+        data-category="chuo"
+        alt="photo prise dans l'art aquarium museum n°2"
+      />
+      <img
+        src="Asset/Shibuya/MJ0334040825.jpg"
+        class="gallery-item"
+        data-category="shibuya"
+        alt="photo de la Ichino Torii à Meiji Jingu"
+      />
+      <img
+        src="Asset/Minato/TT0322030825.jpg"
+        class="gallery-item"
+        data-category="minato"
+        alt="photo prise devant Zojoji Daimon"
+      />
+      <img
+        src="Asset/Chiyoda/YS0824020825.jpg"
+        class="gallery-item"
+        data-category="chiyoda"
+        alt="photo prise devant Yasukuni shrine"
+      />
+      <img
+        src="Asset/Sumida/TST1300010825.jpg"
+        class="gallery-item"
+        data-category="sumida"
+        alt="photo de la Tokyo Skytree prise la nuit"
+      />
+      <img
+        src="Asset/Taitô/A0803070825.jpg"
+        class="gallery-item"
+        data-category="taito"
+        alt="photo prise dans les rues de Asakusa"
+      />
+      <img
+        src="Asset/Shinjuku/SG0840040825.jpg"
+        class="gallery-item"
+        data-category="shinjuku"
+        alt="photo de la tête de Godzilla à Shinjuku"
+      />
+      <img
+        src="Asset/Odaiba/OG1210060825.jpg"
+        class="gallery-item"
+        data-category="odaiba"
+        alt="photo de la statue Gundam Unicorn prise la nuit"
+      />
+      <img
+        src="Asset/Chûô/G0306050825.jpg"
+        class="gallery-item"
+        data-category="chuo"
+        alt="photo prise dans les rues de Ginza"
+      />
+      <img
+        src="Asset/Shibuya/SS1129040825.jpg"
+        class="gallery-item"
+        data-category="shibuya"
+        alt="photo de Shibuya Square depuis le Starbucks"
+      />
+      <img
+        src="Asset/Minato/TT0408030825.jpg"
+        class="gallery-item"
+        data-category="minato"
+        alt="photo de vue depuis Tokyo Tower"
+      />
+      <img
+        src="Asset/Chiyoda/IP0448070825.jpg"
+        class="gallery-item"
+        data-category="chiyoda"
+        alt="photo d'un héron dans une douve du palais impérial"
+      />
+      <img
+        src="Asset/Sumida/H0153020825.jpg"
+        class="gallery-item"
+        data-category="sumida"
+        alt="photo prise dans les rues du quartier de Higashimukojima n°1"
+      />
+      <img
+        src="Asset/Taitô/UM0945030825.jpg"
+        class="gallery-item"
+        data-category="taito"
+        alt="photo d'une plaque d'égoût au musée de la nature et science en colaboration avec Pokemon"
+      />
+      <img
+        src="Asset/Shinjuku/S0832040825.jpg"
+        class="gallery-item"
+        data-category="shinjuku"
+        alt="photo dans une des rues de Shinjuku n°1"
+      />
+      <img
+        src="Asset/Odaiba/O0631060825.jpg"
+        class="gallery-item"
+        data-category="odaiba"
+        alt="photo prise à Toyosu"
+      />
+      <img
+        src="Asset/Chûô/G0421050825.jpg"
+        class="gallery-item"
+        data-category="chuo"
+        alt="photo de la Seiko House Ginza Clock Tower"
+      />
+      <img
+        src="Asset/Shibuya/H0443040825.jpg"
+        class="gallery-item"
+        data-category="shibuya"
+        alt="photo de la gare de Harajuku"
+      />
+      <img
+        src="Asset/Minato/TT0704030825.jpg"
+        class="gallery-item"
+        data-category="minato"
+        alt="photo prise dans Atago Jinja"
+      />
+      <img
+        src="Asset/Chiyoda/IP0305020825.jpg"
+        class="gallery-item"
+        data-category="chiyoda"
+        alt="photo prise sur une des douves du palais impérial"
+      />
+      <img
+        src="Asset/Sumida/H2327070825.jpg"
+        class="gallery-item"
+        data-category="sumida"
+        alt="photo prise dans les rues du quartier de Higashimukojima n°3"
+      />
+      <img
+        src="Asset/Taitô/UM0801030825.jpg"
+        class="gallery-item"
+        data-category="taito"
+        alt="photo prise devant le musée de la nature et science"
+      />
+      <img
+        src="Asset/Shinjuku/S2832040825.jpg"
+        class="gallery-item"
+        data-category="shinjuku"
+        alt="photo prise dans les rues de Shinjuku n°3"
+      />
+      <img
+        src="Asset/Odaiba/OTL0659060825.jpg"
+        class="gallery-item"
+        data-category="odaiba"
+        alt="photo prise devant Teamlab Planets"
+      />
+      <img
+        src="Asset/Chûô/G0319050825.jpg"
+        class="gallery-item"
+        data-category="chuo"
+        alt="photo prise dans l'art aquarium museum n°1"
+      />
+      <img
+        src="Asset/Shibuya/S1139040825.jpg"
+        class="gallery-item"
+        data-category="shibuya"
+        alt="photo du batiment Modi à Shibuya"
+      />
+      <img
+        src="Asset/Minato/TT0348030825.jpg"
+        class="gallery-item"
+        data-category="minato"
+        alt="photo de la Tokyo Tower"
+      />
+      <img
+        src="Asset/Chiyoda/IP0311020825.jpg"
+        class="gallery-item"
+        data-category="chiyoda"
+        alt="photo du parc national de la fontaine Wadakura"
+      />
+      <img
+        src="Asset/Sumida/H0243030825.jpg"
+        class="gallery-item"
+        data-category="sumida"
+        alt="photo de la Tokyo Skytree prise depuis les quais de la gare de Hikifune"
+      />
+      <img
+        src="Asset/Taitô/UM0915030825.jpg"
+        class="gallery-item"
+        data-category="taito"
+        alt="photo de Hachiko empaillé dans le musée de la nature et science "
+      />
+      <img
+        src="Asset/Shinjuku/S0847040825.jpg"
+        class="gallery-item"
+        data-category="shinjuku"
+        alt="photo prise dans les rues de Shinjuku n°2"
+      />
+      <img
+        src="Asset/Odaiba/OTL0745060825.jpg"
+        class="gallery-item"
+        data-category="odaiba"
+        alt="photo prise dans Teamlab n°2"
+      />
+      <img
+        src="Asset/Chûô/G1228020825.jpg"
+        class="gallery-item"
+        data-category="chuo"
+        alt="photo prise dans les rues de Ginza pendant la nuit"
+      />
+      <img
+        src="Asset/Shibuya/SH1028040825.jpg"
+        class="gallery-item"
+        data-category="shibuya"
+        alt="photo de la statue de Hachiko"
+      />
+      <img
+        src="Asset/Minato/TT0352030825.jpg"
+        class="gallery-item"
+        data-category="minato"
+        alt="photo de la Tokyo Tower prise au pied de celle-ci"
+      />
+      <img
+        src="Asset/Chiyoda/GT0340070825.jpg"
+        class="gallery-item"
+        data-category="chiyoda"
+        alt="photo de la Gare de Tokyo"
+      />
+      <img
+        src="Asset/Sumida/H0154020825.jpg"
+        class="gallery-item"
+        data-category="sumida"
+        alt="photo prise dans les rues du quartier de Higashimukojima n°2"
+      />
+      <img
+        src="Asset/Taitô/A0947070825.jpg"
+        class="gallery-item"
+        data-category="taito"
+        alt="photo de la Tokyo Skytree prise depuis Asakusa"
+      />
+      <img
+        src="Asset/Taitô/ASJ0830010825.jpg"
+        class="gallery-item"
+        data-category="taito"
+        alt="photo de Senso-ji pendant la pluie"
+      />
+      <img
+        src="Asset/Shibuya/H0509040825.jpg"
+        class="gallery-item"
+        data-category="shibuya"
+        alt="photo de Tokyu Plaza"
+      />
+      <img
+        src="Asset/Taitô/UM0944030825.jpg"
+        class="gallery-item"
+        data-category="taito"
+        alt="photo d'une statue de baleine devant le musée de la nature et science"
+      />
+      <img
+        src="Asset/Sumida/TST1111010825.jpg"
+        class="gallery-item"
+        data-category="sumida"
+        alt="photo prise depuis la Tokyo Skytree"
+      />
+      <img
+        src="Asset/Shibuya/SS1030040825.jpg"
+        class="gallery-item"
+        data-category="shibuya"
+        alt="photo prise au mileu de Shibuya square"
+      />
+      <img
+        src="Asset/Odaiba/OG0941060825.jpg"
+        class="gallery-item"
+        data-category="odaiba"
+        alt="photo de la statue Gundam Unicorn prise le jour"
+      />
+      <img
+        src="Asset/Chûô/G0304050825.jpg"
+        class="gallery-item"
+        data-category="chuo"
+        alt="photo du plus fameux théâtre de kabuki à Tokyo"
+      />
+      <img
+        src="Asset/Shibuya/H0503040825.jpg"
+        class="gallery-item"
+        data-category="shibuya"
+        alt="photo prise dans les rues de Harajuku n°1"
+      />
+    </div>
+
+    <!-- Modale -->
+    <div class="modal" id="modal">
+      <span class="modal-close-area"></span>
+
+      <button class="modal-btn prev" id="prevBtn">&#10094;</button>
+
+      <img class="modal-img" id="modalImg" src="" alt="Image agrandie" />
+
+      <button class="modal-btn next" id="nextBtn">&#10095;</button>
+    </div>
+
+    <footer>
+      <div class="map">
+        <img
+          src="Asset/Google-map.jpeg"
+          class="map-img"
+          alt="image google map de Tokyo"
+        />
+        <p>
+          <a
+            href="https://www.google.com/maps/place/Tokyo,+Japan/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tokyo, Japon
+          </a>
+        </p>
+      </div>
+
+      <div class="dates">
+        <p>Août - 8 Août<br />2025</p>
+      </div>
+
+      <div class="legal">
+        <p>
+          copy right 2025<br />
+          mentions légales
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
